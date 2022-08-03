@@ -1,0 +1,55 @@
+form {
+    width: 154mm;
+    height: 150mm;
+    margin: auto
+}
+fieldset {
+    width: 150mm;
+    height: 115mm;
+    margin: auto
+}
+div {
+    margin:1mm;
+}
+.half {   
+    display:inline-block; 
+    width:26mm;
+    margin-left: 0;
+    margin-right: 0;    
+}
+.quoter {   
+    display:inline-block; 
+    width:12mm;
+    align-items: start;
+    margin-left: 0;
+    margin-right: 0;    
+}
+.inp100 {
+    margin:0;
+    padding:0;
+    width:100%;
+}
+
+.leftpos {    
+    margin-left: 48mm;
+    margin-right: 0;
+    padding:0;
+    width:54mm
+}
+
+legend {   
+    margin-left: 25mm;
+    border:thin; 
+    border-style: solid;
+    width: 24mm;  
+} 
+
+.label-c {
+    display:block;   
+    text-align:center;
+    margin:auto;
+    position:relative ;    
+}
+textarea {
+    height: 15mm;
+}
