@@ -1,3 +1,8 @@
+First commit - classic css. Compromizes: 
+1. half-sized fields are different ant not justified 100%
+2. div in html was moved from bottom to higher position (probably ok)
+3. two rows text in bottom was reduced to one line only (2 lines too hard)
+
 # CSS Layout Project
 
 In this project, we will be using the HTML Forms project as the start point to
