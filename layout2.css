@@ -1,0 +1,76 @@
+form,fieldset {
+    width: 600px;    
+    margin: 20px auto
+}
+legend {   
+  margin-left: 25mm;
+  border:thin; 
+  border-style: solid;
+  width: 24mm;  
+} 
+
+.box {    
+    display:flex;
+    flex-direction: column;
+    width: 202px;
+    margin: 0 auto;
+    text-align: center;
+}
+.row {
+    display: flex;
+    flex-direction: row;    
+    margin: 10px 0;    
+    text-align: center;
+  }
+.column {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+.radio{  
+    border:0;
+    height: 20px;
+    width:20px;    
+    
+    position: relative;    
+    top:-5px;
+}
+.checkbox {
+  height: 30px;
+  width:30px;
+  margin-left: 10px;
+  vertical-align:text-top
+}
+.chk-text{
+  text-align: left;
+  margin-left: 8px;
+}
+
+.row.left {   
+   justify-content: left;   
+}
+ .row.leftpad {
+    justify-content: left;
+    margin: 5px;  
+ }
+ 
+ .row-just {
+    display: flex;
+    flex-direction: row;            
+    justify-content:space-between;
+    flex-basis: auto;
+ }  
+.column--size2 {    
+    margin: 0px 0px 0px 3px;
+    width: 45%;
+}
+.high{
+    min-height: 21px;
+    vertical-align:top;
+}
+textarea {
+    height: 45px;
+}
+button {
+  margin: 15px 0 40px;
+}
